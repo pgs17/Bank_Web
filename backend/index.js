@@ -8,7 +8,10 @@ app.use(cors());
 app.use(express.json())
 
 const mongoose = require("mongoose");
-mongoose.connect("mongodb+srv://sarangipriyanshu:Kanha%402003@cluster0.sjnqg5k.mongodb.net/BANKINGSYSTEM?retryWrites=true&w=majority");
+mongoose.connect("mongodb+srv://sarangipriyanshu:Kanha%402003@cluster0.sjnqg5k.mongodb.net/BANKINGSYSTEM?retryWrites=true&w=majority",{
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+});
 
 app.get("/getusers", async(request , response)=> {
   try{

@@ -6,7 +6,7 @@ const userschema = new  mongoose.Schema({
         required : true
     },
     Phone:{
-        type : Number,
+        type : String,
         required : true
     },
     Address :{
@@ -26,7 +26,7 @@ const userschema = new  mongoose.Schema({
         required: true
     },
     Amount:{
-        type : Number,
+        type : String,
         required: true
     },
     Employment:{
