@@ -1,5 +1,5 @@
  # BANK APP
-A simple TodoList app built using React JS, Tailwind CSS .
+A simple Bank App app built using React JS, Tailwind CSS .
 
 ## Technologies used
 * React JS - A JavaScript library for building user interfaces
