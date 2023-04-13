@@ -1,11 +1,11 @@
 import { useState } from 'react'
- 
+ import Navbar from './Components/Navbar'
 import './App.css'
 
 function App() {
   
   return (
-       <div>Hello World</div>
+     <div>Under Construction</div>
 
     )
 }
