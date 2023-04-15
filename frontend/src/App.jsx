@@ -1,36 +1,24 @@
- import React from 'react'
-//  import {BrowserRouter}  from 'react-router-dom'
-//  import {Routes} from 'react-router-dom'
-//  import  {Route} from 'react-router-dom'
-//  import {MultistepContext} from './StepContext/UserContext'
-  import HomePage from './Components/HomePage'
-  import Navbar from './Components/Navbar'
-  import Footer from './Components/Footer'
-  import Transactions from './Components/Transactions'
-  import User from './Components/User'
-  import Users from './Components/Users'
-import AddUser from './Components/AddUser'
+import React from 'react'
  
 import './App.css'
+import Header from './Component/Header/Header'
+import Landing from './Component/Middle/Landing'
+import Footer from './Component/Footer/Footer'
 
- const App = () => {
-   return (
-   
+const App = () => {
+  return (
+
 
     <div>
-     <Navbar/>
-     <HomePage/>
-     <Users/>
-     <User/>
-     <Transactions/>
-     <AddUser/>
-      
-     <Footer/>
-   </div>
-    
+       
+        <Header />
+        <Landing />
+      <Footer/>
 
-   )
- }
- 
- export default App
- 
+    </div>
+
+
+  )
+}
+
+export default App
