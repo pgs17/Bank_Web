@@ -1,7 +1,8 @@
 import React from 'react'
  
 import './App.css'
-import Header from './Component/Header/Header'
+ 
+import Navbar from './Component/Navbar/Navbar'
 import Landing from './Component/Middle/Landing'
 import Footer from './Component/Footer/Footer'
 
@@ -10,10 +11,11 @@ const App = () => {
 
 
     <div>
-       
-        <Header />
+      
+        <Navbar />
         <Landing />
       <Footer/>
+       
 
     </div>
 
