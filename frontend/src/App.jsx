@@ -1,6 +1,6 @@
 import React from 'react'
  
-import './App.css'
+import './index.css'
  
 import Navbar from './Component/Navbar/Navbar'
 import Landing from './Component/Middle/Landing'
