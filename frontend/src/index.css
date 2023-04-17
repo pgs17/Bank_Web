@@ -55,6 +55,11 @@ img{
     width: 100%;
     object-fit: cover;
 }
+footer
+{  
+    margin-bottom: 10rem;
+    padding: 6rem 0rem 8rem 0rem;
+}
 
 .btn{
     color: var(--color-primary);
