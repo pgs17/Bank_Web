@@ -1,0 +1,62 @@
+.footer_content{
+    position: relative;
+    background-color: var(--color-primary-variant);
+     margin-bottom: 10rem;
+     display: block;
+}
+.footer_content h3, .footer_content h5 {
+    color: var(--color-grey-1);
+    font-weight:  400;
+    font-size: 0.87rem;
+    text-align: center;
+}
+.footer_socials{
+    border: 1px solid transparent;
+    font-size: 1.8rem;
+    border-radius: 3rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.copyright_section{
+    margin-left: 3rem;
+    margin-top: 1.5rem;
+    text-align: center;
+}
+
+.sponsors{
+    border: 1px solid transparent;
+    margin: 1rem 8rem;
+    display: flex;
+     justify-content: center;
+      
+}
+.sponsors h3{
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.sponsor_icons{
+    margin-top: 0.76rem;
+    font-size: 2rem;
+    display: flex;
+    gap: 3rem;
+}
+
+@media screen and (max-width:1024px) {
+    .sponsor_icons{
+        gap: 1rem;
+    }
+    .footer_socials{
+        gap: 2rem;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .sponsor_icons{
+        gap: 0.5rem;
+        flex-wrap: wrap;
+    }
+}
