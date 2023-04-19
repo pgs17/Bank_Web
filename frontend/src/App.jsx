@@ -16,7 +16,7 @@ const App = () => {
         <BrowserRouter>
           <Navbar />
           <Routes>
-            <Route path='/' component={Landing} />
+            <Route path='/'  element={<Landing/>} />
 
 
           </Routes>
