@@ -12,10 +12,10 @@ export default function Landing() {
                 <h4>Transactions</h4>
             </article>
             <article className='services'>
-               
+               <h4> Existing Customers</h4>
                </article>
                <article className='services'>
-               
+               <h4> New User</h4>
                </article>
           </div>
 
