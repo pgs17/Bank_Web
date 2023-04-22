@@ -9,7 +9,7 @@ export default function Landing() {
     <header id='  about_container'>
 
       <h2>WORLD BANK OF INDIA</h2>
-      <p>This is a simple banking dite through which you can
+      <p>This is a simple banking site through which you can
         create an account and transfer money with each other and see
         the details of it.
         You do the business, we’ll handle the money.For ambitious companies around the world, Wallet makes moving money as simple.
