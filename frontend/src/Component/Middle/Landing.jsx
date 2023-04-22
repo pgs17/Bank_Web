@@ -6,7 +6,7 @@ import { GoPerson } from 'react-icons/go'
 import { GoDiffAdded } from 'react-icons/go'
 export default function Landing() {
   return (
-    <section id='  about_container'>
+    <header id='  about_container'>
 
       <h2>WORLD BANK OF INDIA</h2>
       <p>This is a simple banking dite through which you can
@@ -44,6 +44,6 @@ export default function Landing() {
         </div>
       </div>
 
-    </section>
+    </header>
   )
 }
