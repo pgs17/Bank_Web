@@ -1,9 +1,9 @@
  # BANK APP
-A simple Bank App app built using React JS, Tailwind CSS .
+A simple Bank App app built using React JS .
 
 ## Technologies used
 * React JS - A JavaScript library for building user interfaces
-* Tailwind CSS - A utility-first CSS framework for rapidly building custom designs
+
 * Vite JS - A frontend tooling that provides faster and leaner development for modern web projects
  
 ## Installation
