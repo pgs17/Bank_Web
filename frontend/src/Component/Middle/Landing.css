@@ -3,9 +3,9 @@
     grid-template-columns: 35% 50%;
     gap: 15%;
 }
-p {
+header > p {
     margin: 2rem 0rem 2.6rem;
-color: var(--color-grey-1);
+ 
 }
  .about_bank{
      
