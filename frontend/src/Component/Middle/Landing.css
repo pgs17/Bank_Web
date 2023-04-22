@@ -10,7 +10,7 @@ header > p {
  .about_bank{
      
         width: 100%;
-        aspect-ratio: 1/1;
+        /* aspect-ratio: 1/1; */
         border-radius: 4rem;
         /* linear gradient is a shorthand for all background props  */
         background: linear-gradient(45deg, transparent, var(--color-primary),transparent);
