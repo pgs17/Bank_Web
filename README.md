@@ -1,4 +1,8 @@
- # BANK APP
+# Bank_Web
+A Banking website demonstrate users and transactions done in a particular bank
+  
+  # FRONTEND
+  ## BANK APP
 A simple Bank App app built using React JS .
 
 ## Technologies used
