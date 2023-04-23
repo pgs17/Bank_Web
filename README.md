@@ -6,9 +6,12 @@ A Banking website demonstrate users and transactions done in a particular bank
 A simple Bank App app built using React JS .
 
 ## Technologies used
-* React JS - A JavaScript library for building user interfaces
-
-* Vite JS - A frontend tooling that provides faster and leaner development for modern web projects
+* React JS  
+* ExpressJS
+* MongoDB
+* Cors
+* Nodemon
+* Vite JS  
  
 ## Installation
 
