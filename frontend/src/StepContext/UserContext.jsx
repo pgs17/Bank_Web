@@ -1,5 +1,5 @@
 import React, { createContext, useState } from "react";
-import {  useNavigate} from 'react-router-dom'
+// import {  useNavigate} from 'react-router-dom'
 import Axios from 'axios'
 
 // a context object is created 
@@ -8,7 +8,7 @@ export const MultistepContext = createContext()
 
 export default function StepContext (props){
    // navigate was use history in dom 5
-    const navigate = useNavigate(); 
+    // const navigate = useNavigate(); 
 
     const [CurrentStep,SetCurrentStep] = useState(0)
    const [Userdata, SetUserdata] = useState([])
@@ -23,7 +23,7 @@ async function Submitdata(){
     await Axios.post("/adduser",Userdata)
     SetUserdata('')
     SetCurrentStep(1);
-    navigate('/getusers');
+    // navigate('/getusers');
 }
  
 
